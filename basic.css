@@ -1,0 +1,69 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+
+.parent-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 350px;
+    gap: 40px;
+    padding:10px;
+    grid-template-areas:
+    "image-1 image-2 image-3 image-3" 
+    "image-4  image-4 image-5";
+}
+ 
+
+img{
+    width:50px;
+    border-radius:50%;
+    vertical-align: middle;
+    line-height: 16px;
+    
+}
+
+.image-1{
+    border-radius: 10px;
+    padding:20px;
+    background-color: purple;
+    text-align: left;
+    color:white;
+}
+
+.image-2{
+    border:10px solid gray;
+    padding:20px;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: left;
+    color:white;
+}
+
+.image-3{
+    border:10px solid white;
+    padding:20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+    color:black;
+}
+
+.image-4{
+    border:10px solid black;
+    padding:20px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color:white;
+}
+
+.image-5{
+    border:10px solid white;
+    padding:20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+    color:black;
+}
+.nameinfo{font-weight:bold}
